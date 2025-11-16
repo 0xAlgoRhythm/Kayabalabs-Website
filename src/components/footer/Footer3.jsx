@@ -1,6 +1,6 @@
 import Link from "next/link";
-import ThumbFooter from "../../../public/assets/imgs/thumb/footer.jpg";
-import FooterLogoWhite from "../../../public/assets/imgs/logo/footer-logo-white.png";
+import ThumbFooter from "../../../public/assets/imgs/thumb/tags.png";
+import FooterLogoWhite from "../../../public/assets/imgs/logo/KayabLabs-white.png";
 import Image from "next/image";
 
 export default function Footer3() {

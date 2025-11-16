@@ -108,7 +108,7 @@ const DigitalAgencyBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item fade_bottom">
+                {/* <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={115}
@@ -179,7 +179,7 @@ const DigitalAgencyBrand = () => {
                     src={Brand2}
                     alt="Brand Logo"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

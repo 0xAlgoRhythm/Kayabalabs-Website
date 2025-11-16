@@ -141,7 +141,7 @@ const DigitalMarketingHero = () => {
           <Image
             priority
             width={1095}
-            style={{ height: "780px" }}
+            style={{ height: "auto" }}
             src={Hero31}
             alt="Hero Image"
             className="hero3-img"

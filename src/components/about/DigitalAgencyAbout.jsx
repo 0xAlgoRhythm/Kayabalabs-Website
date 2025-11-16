@@ -4,7 +4,7 @@ import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
 import Image from "next/image";
 import About11 from "../../../public/assets/imgs/about/black-blocks.png";
-import About12 from "../../../public/assets/imgs/about/1/2.jpg";
+import About12 from "../../../public/assets/imgs/about/network.png";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -42,7 +42,7 @@ const DigitalAgencyAbout = () => {
                   <div className="img-anim about__img_left">
                     <Image
                       priority
-                      style={{ width: "auto", height: "auto" }}
+                      style={{ width: "max-content", height: "auto" }}
                       src={About11}
                       alt="About Image"
                       data-speed="0.3"
