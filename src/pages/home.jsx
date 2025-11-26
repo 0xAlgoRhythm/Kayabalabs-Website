@@ -77,8 +77,8 @@ const DigitalAgency = () => {
   return (
     <div>
       <Head>
-        <title>Digital Agency</title>
-        <meta name="description" content="Digital Agency Description" />
+        <title>KayabaLabs</title>
+        <meta name="description" content="Blockchain Development, Research And Education" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

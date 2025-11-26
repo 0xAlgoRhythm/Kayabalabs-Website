@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
-import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
+import Hero31 from "../../../public/assets/imgs/hero/globe.png";
 import Image from "next/image.js";
 
 const DigitalMarketingHero = () => {
@@ -104,7 +104,7 @@ const DigitalMarketingHero = () => {
             </div>
           </div>
         </div>
-        <div className="wrapper" ref={wrapper}>
+        {/* <div className="wrapper" ref={wrapper}>
           <div className="video-info">
             <div className="video-intro">
               <input
@@ -135,12 +135,12 @@ const DigitalMarketingHero = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="hero3-img-ani">
           <Image
             priority
-            width={1195}
+            width={1095}
             style={{ height: "auto" }}
             src={Hero31}
             alt="Hero Image"
