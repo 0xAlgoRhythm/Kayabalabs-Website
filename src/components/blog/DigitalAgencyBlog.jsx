@@ -61,7 +61,7 @@ const DigitalAgencyBlog = () => {
             <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title">recent blog</h2>
-                <h3 className="sec-title">News insignt</h3>
+                <h3 className="sec-title">News And Articles</h3>
               </div>
             </div>
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -91,7 +91,7 @@ const DigitalAgencyBlog = () => {
                 </h4>
                 <h5>
                   <Link href="/blog-details" className="blog__title">
-                    Ways of lying to yourself about your new relationship.
+                    Ways of lying to yourself about your new job.
                   </Link>
                 </h5>
                 <Link href="/blog-details" className="blog__btn">

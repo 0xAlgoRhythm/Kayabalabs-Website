@@ -94,14 +94,14 @@ const DigitalAgency = () => {
           <DigitalAgencyWorkflow />
           <DigitalAgencyPortfolio />
           <DigitalAgencyBrand />
-          <DigitalAgencyTestimonial
+          {/* <DigitalAgencyTestimonial
             modalTestimonial1={modalTestimonial1}
             modalTestimonial2={modalTestimonial2}
             modalTestimonial3={modalTestimonial3}
             modalClose1={modalClose1}
             modalClose2={modalClose2}
             modalClose3={modalClose3}
-          />
+          /> */}
           <DigitalAgencyBlog />
           <DigitalAgencyCTA />
         </RootLayout>
