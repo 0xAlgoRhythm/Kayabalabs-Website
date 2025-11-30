@@ -77,7 +77,7 @@ const DigitalAgencyPortfolio = () => {
       <section className="portfolio__area pb-140">
         <div className="container">
           <div className="row top_row">
-            <h2 className="portfolio__text">work</h2>
+            <h5 className="portfolio__text">projects</h5>
             <div className="portfolio__list-1">
               <div className="portfolio__item">
                 <Link href="portfolio-details">
@@ -122,7 +122,7 @@ const DigitalAgencyPortfolio = () => {
                   <p>02 May 2021</p>
                 </div>
               </div>
-              <div className="portfolio__item">
+              {/* <div className="portfolio__item">
                 <Link href="/portfolio-details">
                   <Image
                     priority
@@ -135,8 +135,8 @@ const DigitalAgencyPortfolio = () => {
                   <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
                   <p>02 May 2021</p>
                 </div>
-              </div>
-              <div className="portfolio__item">
+              </div> */}
+              {/* <div className="portfolio__item">
                 <Link href="/portfolio-details">
                   <Image
                     priority
@@ -149,8 +149,8 @@ const DigitalAgencyPortfolio = () => {
                   <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
                   <p>02 May 2021</p>
                 </div>
-              </div>
-              <div className="portfolio__item">
+              </div> */}
+              {/* <div className="portfolio__item">
                 <Link href="/portfolio-details">
                   <Image
                     priority
@@ -163,7 +163,7 @@ const DigitalAgencyPortfolio = () => {
                   <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
                   <p>02 May 2021</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

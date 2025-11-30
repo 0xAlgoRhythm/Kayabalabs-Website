@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/brand/1.png";
-import Brand2 from "../../../public/assets/imgs/brand/2.png";
-import Brand3 from "../../../public/assets/imgs/brand/3.png";
-import Brand4 from "../../../public/assets/imgs/brand/4.png";
+import Brand1 from "../../../public/assets/imgs/brand/ethereum.png";
+import Brand2 from "../../../public/assets/imgs/brand/lisk-logo.png";
+import Brand3 from "../../../public/assets/imgs/brand/optimism.png";
+import Brand4 from "../../../public/assets/imgs/brand/Scroll.png";
 import Brand5 from "../../../public/assets/imgs/brand/5.png";
 import Brand6 from "../../../public/assets/imgs/brand/6.png";
 import Image from "next/image";
@@ -62,11 +62,11 @@ const DigitalAgencyBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Internation Brands</h2>
-                <h3 className="sec-title title-anim">
-                  We are happy to work with global <br />
-                  largest brands
-                </h3>
+                <h2 className="sec-sub-title title-anim">Ecosystem Partners</h2>
+                <h5 className="sec-title title-anim">
+                  We are able to accomplish more <br />
+                  with the support from our ecosystem partners
+                </h5>
               </div>
             </div>
 
@@ -75,8 +75,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={97}
-                    height={67}
+                    width={80}
+                    height={97}
                     src={Brand1}
                     alt="Brand Logo"
                   />
@@ -84,8 +84,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={85}
-                    height={67}
+                    width={100}
+                    height={100}
                     src={Brand2}
                     alt="Brand Logo"
                   />
@@ -93,8 +93,8 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={114}
-                    height={64}
+                    width={80}
+                    height={80}
                     src={Brand3}
                     alt="Brand Logo"
                   />
@@ -102,7 +102,7 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={82}
+                    width={250}
                     height={70}
                     src={Brand4}
                     alt="Brand Logo"
